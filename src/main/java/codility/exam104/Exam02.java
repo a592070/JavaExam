@@ -49,6 +49,13 @@ public class Exam02 {
         System.out.println(shineMoments);
         return shineMoments.size();
     }
+
+    /**
+     *
+     * @param nth           the nth bulb
+     * @param turnedOnBulbs the bulbs turned on
+     * @return              Is nth bulb shine
+     */
     private boolean isShine(int nth, Set<Integer> turnedOnBulbs){
         int previous = nth-1;
         if(nth == 1){

@@ -54,7 +54,6 @@ public class Exam01 {
             return usedGlasses.size();
         }
     }
-
     public static void main(String[] args) {
         System.out.println(new Exam01().solution(5, 10));
     }
